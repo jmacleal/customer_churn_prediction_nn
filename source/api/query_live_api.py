@@ -1,6 +1,6 @@
 """
 Creator: Ivanovitch Silva / José Marcos Leal B. Filho / Lucas Ismael Campos Medeiros
-Date: 24 Maio 2022
+Date: 22 Julho 2022
 Script that POSTS to the API using the requests 
 module and returns both the result of 
 model inference and the status code
@@ -9,21 +9,35 @@ import requests
 import json
 # import pprint
 
+# person = {
+#         "CreditScore": 850,
+#         "Geography": 'Spain',
+#         "Gender": 'Female',
+#         "Age": 43,
+#         "Tenure": 2,
+#         "Balance": 125510.82,
+#         "NumOfProducts": 1,
+#         "HasCrCard": 1,
+#         "IsActiveMember": 1,
+#         "EstimatedSalary": 79084.1
+#     }
+
+# Exited
 person = {
-        "CreditScore": 850,
-        "Geography": 'Spain',
+        "CreditScore": 699,
+        "Geography": 'France',
         "Gender": 'Female',
-        "Age": 43,
-        "Tenure": 2,
-        "Balance": 125510.82,
-        "NumOfProducts": 1,
+        "Age": 39,
+        "Tenure": 1,
+        "Balance": 0,
+        "NumOfProducts": 3,
         "HasCrCard": 1,
-        "IsActiveMember": 1,
-        "EstimatedSalary": 79084.1
+        "IsActiveMember": 0,
+        "EstimatedSalary": 113931.57
     }
 
 #url = "http://127.0.0.1:8000"
-url = "https://customer--churn--prediction.herokuapp.com/"
+url = "https://customer--churn--prediction--nn.herokuapp.com/"
 response = requests.post(f"{url}/predict",
                          json=person)
 

@@ -1,6 +1,6 @@
 """
 Creator: Ivanovitch Silva / José Marcos Leal B. Filho / Lucas Ismael Campos Medeiros
-Date: 24 Maio 2022
+Date: 22 Julho 2022
 API testing
 """
 from fastapi.testclient import TestClient
@@ -21,6 +21,7 @@ def test_root():
 # for an customer with a "Continued" status.
 def test_get_inference_continued():
     
+    # Continued
     person = {
         "CreditScore": 850,
         "Geography": 'Spain',
@@ -43,17 +44,18 @@ def test_get_inference_continued():
 # for an customer with a "Exited" status.
 def test_get_inference_exited():
 
+    # Exited
     person = {
-        "CreditScore": 619,
+        "CreditScore": 699,
         "Geography": 'France',
         "Gender": 'Female',
-        "Age": 42,
-        "Tenure": 2,
+        "Age": 39,
+        "Tenure": 1,
         "Balance": 0,
-        "NumOfProducts": 1,
+        "NumOfProducts": 3,
         "HasCrCard": 1,
-        "IsActiveMember": 1,
-        "EstimatedSalary": 101348.88
+        "IsActiveMember": 0,
+        "EstimatedSalary": 113931.57
     }
 
     r = client.post("/predict", json=person)
