@@ -1,6 +1,6 @@
 # Customer Churn Prediction
 This is a machine learning project for customer churn prediction, using Neural Network (NN).
-The project was developed during the Machine Learning discipline (EEC1509) of the Postgraduate Program in Electrical and Computer Engineering at the Technology Center of the Federal University of Rio Grande do Norte, in July 2022.
+The project was developed during the Machine Learning (ML) discipline (EEC1509) of the Postgraduate Program in Electrical and Computer Engineering at the Technology Center of the Federal University of Rio Grande do Norte, in July 2022.
 
 ### Team
  - Supervisor: Prof. Ivanovitch (www.linkedin.com/in/ivanovitchm)
@@ -11,13 +11,13 @@ Last Update: July 24, 2022.
 
 ## Project Purpose:
 * Improve the performance of predicting customer churn from a particular service using Neural Network;
-* Compare the techniques used to improve network learning and generalization;
-* Compare the performance of the neural network in relation to the classic decision tree method.
+* Compare the performance of the neural network in relation to the classic decision tree method;
+* Compare the techniques used to improve network learning and generalization.
 
 <center><img width="800" src="images/churn.jpg"></center>
 
 ## Project Description
-This project develops a data transform pipeline and a Machine Learning (ML) Neural Network, using Jupyter Notebook, Weights & Bias, Pandas, Scikit-Learn and TensorFlow. The Jupyter Notebook script is here [source/ml_project/churn_prediction_nn.ipynb](https://github.com/jmacleal/customer_churn_prediction_nn/blob/main/source/ml_project/churn_prediction.ipynb).
+This project develops a data transform pipeline and a Machine Learning Neural Network, using Jupyter Notebook, Weights & Bias, Pandas, Scikit-Learn and TensorFlow. The Jupyter Notebook script is [here](https://github.com/jmacleal/customer_churn_prediction_nn/blob/main/source/ml_project/churn_prediction_NN.ipynb).
 
 The model development is composed of the following stages: 1) ``Extract, Transform and Load (ETL)``, 2) ``Data Check``, 3) ``Data Segregation``, 4) ``Trainning and Validation``, 5) ``Test``.
 It is put in production and deployed using FastAPI, GitHub, PyTest, Git Actions and Heroku. See the aplication [here](https://customer--churn--prediction-nn.herokuapp.com/docs).
@@ -37,6 +37,10 @@ We also tested 3 sets of techniques to achieve better results:
 * Modern: Use Early Stopping and Dropout, in addition to a Weight Constraint.
 
 ## Results
+
+<center><img width="800" src="images/classical.jpg"></center>
+<center><img width="800" src="images/alternate.jpg"></center>
+<center><img width="800" src="images/modern.jpg"></center>
 
 Comparison with the decision tree model:
 
