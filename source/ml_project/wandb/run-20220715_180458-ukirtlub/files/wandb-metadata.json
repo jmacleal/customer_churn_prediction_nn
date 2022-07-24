@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-07-15T21:05:09.292555",
+    "startedAt": "2022-07-15T21:04:58.507082",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/jmacleal/customer_churn_prediction_nn",
+        "commit": "087c0a40a501ad4b1c5c7745fb21c66e2431824d"
+    },
+    "email": "mac_leal@hotmail.com",
+    "root": "C:/Users/Mac_l/Meu_Drive/pesquisas_jose_marcos/doutorado/disciplinas/machine_learning/GitHub/mlops_projects/projeto_Final/customer_churn_prediction_nn",
+    "host": "DESKTOP-VK6N7PS",
+    "username": "Mac_l",
+    "executable": "c:\\Users\\Mac_l\\anaconda3\\envs\\colab2deploy\\python.exe"
+}
