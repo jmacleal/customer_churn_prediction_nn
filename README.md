@@ -31,7 +31,7 @@ To improve the learning and generalization of the network, the following strateg
 
 We use a Multi Hidden Layer (MLP) approach with 2 hidden layers using a Rectified Linear Unit (ReLU) activation function in order to fix the vanishing gradient problem, with a 2 node output layer with a Sigmoid activation function (Classification). Stochastic gradient descent (SGD) and Adam optimizers were tested with different learning rates and gradient clipping (Fix Exploding Gradient).
 
-We also tested 3 sets of techniques to achieve better results:
+We also tested 3 sets of techniques to achieve better accuracy:
 * Classical: Use Early Stopping and Weight Decay (L2 Weight Regularization) + Batch Normalization;
 * Alternate: Use Early Stpopping and added Noise with a Weight Constraint + Batch Normalization;
 * Modern: Use Early Stopping and Dropout, in addition to a Weight Constraint.
