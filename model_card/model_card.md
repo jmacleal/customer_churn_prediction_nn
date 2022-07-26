@@ -34,14 +34,14 @@ The dataset under study is split into Train and Test during the ``Segregate`` st
 ## Metrics
 The metrics adopted for the machine learning experiment performance are: [accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html), [f1](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score), [precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#sklearn.metrics.precision_score), [recall](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#sklearn.metrics.recall_score).
 
-Metrics are calculated in "Export the best model" and "Testing" sections of the churn_prediction.ipynb script available [here](https://github.com/jmacleal/customer_churn_prediction/blob/main/source/ml_project/churn_prediction.ipynb).
+Metrics are calculated in "Export the best model" and "Testing" sections of the churn_prediction_NN.ipynb script available [here](https://github.com/jmacleal/customer_churn_prediction/blob/main/source/ml_project/churn_prediction_NN.ipynb).
 
 The results are shown below:
 
- **Stage [Run]**                        | **Accuracy** | **F1**  | 
+ **Stage [Run]**                        | **Accuracy** | **F1**  | **Precision** | **Recall** |  
 ---------------------------------|--------------|---------|
-Train [wandering-sweep-10](https://wandb.ai/eec1509/churn_prediction_project/runs/oonh4fwy/overview?workspace=user-macleal) | 0.80048      | 0.52332 ||  
-Test [decent-sweep-12](https://wandb.ai/eec1509/churn_prediction_project/runs/193ucjlu/overview?workspace=user-macleal)  | 0.79467      | 0.51496 |
+Train [rich-wave-620](https://wandb.ai/eec1509/churn_prediction_project_nn/runs/w4pstlma/overview?workspace=) | 0.86542      | 0.58601 | 0.78151       | 0.46875    |    
+Test [jolly-haze-612](https://wandb.ai/eec1509/churn_prediction_project_nn/runs/pe1hh4cg/overview?workspace=user-macleal)  | 0.86467      | 0.58144 | 0.78552       | 0.46154    |
 
 
 ## Ethical Considerations
