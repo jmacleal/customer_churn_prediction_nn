@@ -43,7 +43,6 @@ The results are shown below:
 Train [rich-wave-620](https://wandb.ai/eec1509/churn_prediction_project_nn/runs/w4pstlma/overview?workspace=) | 0.86542      | 0.58601 | 0.78151       | 0.46875    |    
 Test [jolly-haze-612](https://wandb.ai/eec1509/churn_prediction_project_nn/runs/pe1hh4cg/overview?workspace=user-macleal)  | 0.86467      | 0.58144 | 0.78552       | 0.46154    |
 
-
 ## Ethical Considerations
 One might think that this dataset can be used to predict customer churn of a particular service anywhere. However, these data represent the reality of people from specific countries (France, Spain and Germany), with specific characteristics. For other regions a new dataset may be required.
 
