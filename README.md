@@ -1,6 +1,6 @@
 # Customer Churn Prediction
 This is a machine learning project for customer churn prediction, using Neural Network (NN).
-The project was developed during the Machine Learning (ML) discipline (EEC1509) of the Postgraduate Program in Electrical and Computer Engineering at the Technology Center of the Federal University of Rio Grande do Norte, in July 2022.
+The project was developed during the Machine Learning (ML) discipline (EEC1509) of the Postgraduate Program in Electrical and Computer Engineering at the Technology Center of the Federal University of Rio Grande do Norte, in July 2022. A summary of the project is presented in [this video](https://youtu.be/KwpN-wnVk7M).
 
 ### Team
  - Supervisor: Prof. Ivanovitch (www.linkedin.com/in/ivanovitchm)
