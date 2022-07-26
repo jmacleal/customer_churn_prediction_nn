@@ -39,7 +39,7 @@ Metrics are calculated in "Export the best model" and "Testing" sections of the 
 The results are shown below:
 
  **Stage [Run]**                        | **Accuracy** | **F1**  | **Precision** | **Recall** |  
----------------------------------|--------------|---------|
+---------------------------------|--------------|---------|---------------|------------|
 Train [rich-wave-620](https://wandb.ai/eec1509/churn_prediction_project_nn/runs/w4pstlma/overview?workspace=) | 0.86542      | 0.58601 | 0.78151       | 0.46875    |    
 Test [jolly-haze-612](https://wandb.ai/eec1509/churn_prediction_project_nn/runs/pe1hh4cg/overview?workspace=user-macleal)  | 0.86467      | 0.58144 | 0.78552       | 0.46154    |
 
